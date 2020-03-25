@@ -1,10 +1,6 @@
 
 <h1>Namu darbai 2 </h1>
 
-
-<!---->
-<!--Sukurkite kintamjį lang (reikšmės lt arba en) ir naudojant lang ir day parodykite dieną (edited)-->
-
 <?php
 echo "1. Sukurkite masyvą a, b, c. Parodykite masyvą naudodami console.log funkciją.";
 
@@ -130,17 +126,36 @@ echo "8. Sukurkite dvimatį masyvą. Pirmieji du raktai yra lt ir en. Raktai tur
 echo "</br>";
 echo "</br>";
 $WEEKDAYS = array(
-    "LT" => ["pirmadienis","antradienis","trečiadienis","ketvirtadienis","penktadienis", "šeštadienis","sekmadienis"],
+    "LT" => ["sekmadienis","pirmadienis","antradienis","trečiadienis","ketvirtadienis","penktadienis", "šeštadienis"],
     "EN" => ["sunday", "monday", "tuesday", "wednesday", "thursday", "friday", "saturday"]
 );
 
-echo " Lietuviškai = "; echo $WEEKDAYS["LT"][0];
+echo " Lietuviškai = "; echo $WEEKDAYS["LT"][1];
+
+
 echo "</br>";
 echo "</br>";
+
 echo " Angliškai = "; echo $WEEKDAYS["EN"][3];
+
+
 echo "</br>";
 echo "</br>";
+
+echo  "9.Sukurkite kintamjį lang (reikšmės lt arba en) ir naudojant lang ir day parodykite dieną" ;
+echo "</br>";
+echo "</br>";
+
+$lang = array("LT"=> $WEEKDAYS["LT"],"EN"=>$WEEKDAYS["EN"]);
+$day =  date('w') ;
+
+echo $lang["LT"][$day];  // kodel rodo neteisingai ?
+echo "</br>";
+echo $lang["EN"][$day];
+
 ?>
+
+
 
 
 
