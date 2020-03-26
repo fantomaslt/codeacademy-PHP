@@ -82,6 +82,24 @@ $name = prompt($prompt_msg);
 
 $output_msg = "Your name ".$name."!";
 echo($output_msg);
+
+echo "<h4>10. Sudėkite tris skaičius ir atspausdinkite echo.</h4> ";
+
+$kintamasis = 2+3+5;
+echo $kintamasis;
+
+echo "<h4>10. Suskaičiuokite kintamojo liekaną print { $ Kintamasis }.</h4> ";
+
+$x = 77;
+$y = 10;
+$result = fmod($x,$y);
+print " Skaičiaus liekana yra = "; print $result;
+
+echo "<h4>10. Įrašykite į masyva kiekvienos dienos vidutines  temperatūras.</h4> ";
+
+$temperaturos = array(12,12,15,16,12,12,10);
+var_dump($temperaturos);
+
 echo "<hr>";
 echo "</br>";
 echo "<h4>1. Sukurkite masyvą a, b, c. Parodykite masyvą naudodami console.log funkciją.</h4>";
