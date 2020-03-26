@@ -73,6 +73,7 @@ $WEEKDAYS = array(
 
 
 ?>
+
 <br>
 <br>
 
@@ -82,37 +83,6 @@ $WEEKDAYS = array(
 <form action="" method="post">
 
 
-    <?php
-    echo $_GET["name"]; ?><br>
-    Your email address is: <?php echo $_GET["email"];
-    ?>
 
 <br>
-<br>
-<br>
-<br>
-<br>
-
-function wday (n){
-let week_day =['Pirmadienis','Antradienis','Trečiadienis','Ketvirtadienis','Penktadienis','Šeštadienis', 'Sekmadienis'];
-if (n<1||n>7){return 'Tokios savaitės dienos nėra'}
-return week_day[n-1];
-};
-
-//Funkcija, kuri tikrina ar įvedami duomenys teisingi
-function CheckInput (inputs){
-if (inputs.length>0){
-for (let i = 0;i<inputs.length;i++){
-if (inputs[i] == null||inputs[i]==undefined||isNaN(inputs[i])){return false}
-}
-return true;
-}
-return false;
-};
-
-//Kai įvesti neteisingi duomenys
-function WrI(){
-document.write('Wrong inputs!<hr>');
-}
-
 
