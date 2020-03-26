@@ -234,8 +234,7 @@ echo ($arrrr[0]. " " .$arrrr[2]);
 echo "<h4>5. Duotas masyvas 3, 4, 1, 2, 7. Surūšiuokite jį.</h4>";
 
 $masyvas = array("3","4","1","2","7");
-echo "</br>";
-echo "</br>";
+
 sort($masyvas);
 print_r($masyvas);
 
