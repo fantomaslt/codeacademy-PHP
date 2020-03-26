@@ -1,7 +1,6 @@
 <div style="text-align: center" >
 <H1> Namu Darbai </H1>
 
-
 <?php
 
 echo "<h4>Sukurkite num kintamąjį ir priskirkite jam reikšmę 3. Parodykite šio kintamojo reikšmę ekrane, naudodami alert metodą.</h4>";
@@ -10,7 +9,6 @@ $num = 3;
 echo $num ;
 
 echo "<h4>2. Sukurkite kintamuosius a = 10 ir b = 2. Ekrane parodykite jų sumą, skirtumą, daugybos ir padalijimo rezultatus.</h4>";
-
 
 $a = 10;
 $b = 2;
@@ -31,8 +29,6 @@ echo "daugyba yra = "; echo $Multi;
 echo "</br>";
 
 echo "dalyba yra = "; echo $Divi;
-
-
 
 echo "<h4>3. Sukurkite kintamuosius c = 15 ir d = 2. Susumuokite juos ir priskirkite kintamajam result. Parodykite result kintamojo vertę.</h4>" ;
 
@@ -149,7 +145,6 @@ $weekdays = array(
     "6" => "šestadienis",
     "7" => "sekmadienis");
 $day = date('w');
-
 
 echo "Šiandien yra: ";
 print_r($weekdays[$day]);
@@ -353,12 +348,9 @@ $WEEKDAYS = array(
         "penktadienis",
         "šeštadienis"] );
 
-
-
 //declare(strict_types=1);
 //function numbToWord (int $a );
 //
-
 
 ?>
 </div>
